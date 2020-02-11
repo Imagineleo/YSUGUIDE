@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>YSU</class>
+ <widget class="QWidget" name="YSU">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1580</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>等线 Light</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">YSU</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>1311</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/map2.bmp);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/map2.bmp</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>110</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线 Light</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>出发点</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>260</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线 Light</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>目的地</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>160</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线 Light</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>第四教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>机械工程学院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>世纪楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>燕宏桥</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>塔山公园</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图文中心</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里仁实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里仁教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>公寓4B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>大榕树</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西区医院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>材料楼</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>320</y>
+     <width>120</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>等线 Light</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>第四教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>机械工程学院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>世纪楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>燕宏桥</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>塔山公园</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>第二图书馆</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>图文中心</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里仁实验楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>里仁教学楼</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>公寓4B</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>大榕树</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>西区医院</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>材料楼</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1380</x>
+     <y>480</y>
+     <width>121</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始导航</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>1280</x>
+     <y>280</y>
+     <width>25</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>1200</x>
+     <y>440</y>
+     <width>16</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_3">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>633</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_4">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>360</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_5">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>290</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_6">
+   <property name="geometry">
+    <rect>
+     <x>933</x>
+     <y>173</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_7">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>480</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_8">
+   <property name="geometry">
+    <rect>
+     <x>623</x>
+     <y>570</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_9">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>623</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_10">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>586</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_11">
+   <property name="geometry">
+    <rect>
+     <x>73</x>
+     <y>395</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_12">
+   <property name="geometry">
+    <rect>
+     <x>28</x>
+     <y>288</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_13">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>230</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QMyLabel" name="label_4">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>1311</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::NoFrame</enum>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/map2.bmp</pixmap>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_14">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>390</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_15">
+   <property name="geometry">
+    <rect>
+     <x>1060</x>
+     <y>590</y>
+     <width>16</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_16">
+   <property name="geometry">
+    <rect>
+     <x>1120</x>
+     <y>660</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_17">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>450</y>
+     <width>17</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>10</width>
+     <height>10</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_18">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>440</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_19">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>540</y>
+     <width>16</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_20">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>550</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_21">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>570</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_22">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>560</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_23">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>420</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_24">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>320</y>
+     <width>16</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_25">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>390</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_26">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>600</y>
+     <width>16</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_27">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>600</y>
+     <width>21</width>
+     <height>19</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>radioButton_9</zorder>
+  <zorder>radioButton_8</zorder>
+  <zorder>radioButton_7</zorder>
+  <zorder>radioButton_6</zorder>
+  <zorder>radioButton_5</zorder>
+  <zorder>radioButton_4</zorder>
+  <zorder>radioButton_3</zorder>
+  <zorder>radioButton_27</zorder>
+  <zorder>radioButton_26</zorder>
+  <zorder>radioButton_25</zorder>
+  <zorder>radioButton_24</zorder>
+  <zorder>radioButton_23</zorder>
+  <zorder>radioButton_22</zorder>
+  <zorder>radioButton_21</zorder>
+  <zorder>radioButton_20</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>radioButton_19</zorder>
+  <zorder>radioButton_18</zorder>
+  <zorder>radioButton_17</zorder>
+  <zorder>radioButton_16</zorder>
+  <zorder>radioButton_15</zorder>
+  <zorder>radioButton_14</zorder>
+  <zorder>radioButton_13</zorder>
+  <zorder>radioButton_12</zorder>
+  <zorder>radioButton_11</zorder>
+  <zorder>radioButton_10</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QMyLabel</class>
+   <extends>QLabel</extends>
+   <header>qmylabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>start()</slot>
+  <slot>out()</slot>
+ </slots>
+</ui>
